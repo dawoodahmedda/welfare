@@ -35,13 +35,13 @@
 .font-weight-bold {
   font-weight: 700; /* Adjust this value for desired weight */
 }
-
-.footer-about, .footer-contact {
-  width: 30%;
+.footer-about,
+.footer-contact {
+  text-align: center; /* Center text for uniformity */
 }
 
 .footer-logo {
-  width: 40%;
+  margin: 20px 0; /* Adjust margin as needed */
 }
 
 .footer-title {
@@ -57,7 +57,6 @@
 
 .footer-logo-img {
   width: 160px;
-  margin-top: 20px; /* Decrease margin for logo */
 }
 
 .footer-link {
@@ -69,16 +68,38 @@
   color: #ffc107; /* Gold color on hover */
 }
 
-/* Adjust margins for About Us and Contact sections */
-.footer-about {
-  margin-top: 30px; /* Decrease margin-top */
-}
-
-.footer-contact {
-  margin-top: 50px; /* Decrease margin-top */
-}
-
 /* Adjust overall footer padding */
 footer {
   padding: 20px 0; /* Decrease footer height */
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .footer-title {
+    font-size: 1.2em;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-title {
+    font-size: 1.5em;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-title {
+    font-size: 1.7em;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
 }
