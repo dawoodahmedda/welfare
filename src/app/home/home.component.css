@@ -1,0 +1,84 @@
+.carousel-inner img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-indicators button {
+  background-color: grey;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.icon-background {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  opacity: 0.1; /* Adjust opacity for visibility */
+}
+
+.card-body {
+  position: relative;
+  z-index: 2; /* Ensure text is above the icon */
+}
+
+.font-weight-bold {
+  font-weight: 700; /* Adjust this value for desired weight */
+}
+
+.footer-about, .footer-contact {
+  width: 30%;
+}
+
+.footer-logo {
+  width: 40%;
+}
+
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #f8f9fa; /* Lighten title color */
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-logo-img {
+  width: 160px;
+  margin-top: 20px; /* Decrease margin for logo */
+}
+
+.footer-link {
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #ffc107; /* Gold color on hover */
+}
+
+/* Adjust margins for About Us and Contact sections */
+.footer-about {
+  margin-top: 30px; /* Decrease margin-top */
+}
+
+.footer-contact {
+  margin-top: 50px; /* Decrease margin-top */
+}
+
+/* Adjust overall footer padding */
+footer {
+  padding: 20px 0; /* Decrease footer height */
+}
